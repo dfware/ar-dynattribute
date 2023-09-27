@@ -1,20 +1,3 @@
-<p align="center">
-    <a href="https://github.com/yii2tech" target="_blank">
-        <img src="https://avatars2.githubusercontent.com/u/12951949" height="100px">
-    </a>
-    <h1 align="center">ActiveRecord Dynamic Attribute Extension for Yii2</h1>
-    <br>
-</p>
-
-This extension provides dynamic ActiveRecord attributes stored into the single field in serialized state.
-
-For license information check the [LICENSE](LICENSE.md)-file.
-
-[![Latest Stable Version](https://poser.pugx.org/yii2tech/ar-dynattribute/v/stable.png)](https://packagist.org/packages/yii2tech/ar-dynattribute)
-[![Total Downloads](https://poser.pugx.org/yii2tech/ar-dynattribute/downloads.png)](https://packagist.org/packages/yii2tech/ar-dynattribute)
-[![Build Status](https://travis-ci.org/yii2tech/ar-dynattribute.svg?branch=master)](https://travis-ci.org/yii2tech/ar-dynattribute)
-
-
 Installation
 ------------
 
@@ -23,13 +6,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yii2tech/ar-dynattribute
+composer require dfware/ar-dynattribute
 ```
 
 or add
 
 ```json
-"yii2tech/ar-dynattribute": "*"
+"dfware/ar-dynattribute": "*"
 ```
 
 to the require section of your composer.json.
